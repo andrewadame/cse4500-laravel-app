@@ -32,8 +32,8 @@
         <tr>
           <td>3.</td>
           <td>Finish Practice Assignment #4</td>
-          <td><div class="progress progress-xs"><div class="progress-bar bg-warning" style="width: 100%"></div></div></td>
-          <td><span class="badge bg-warning">100%</span></td>
+          <td><div class="progress progress-xs"><div class="progress-bar bg-success" style="width: 100%"></div></div></td>
+          <td><span class="badge bg-success">100%</span></td>
       </tbody>
     </table>
   </div>
