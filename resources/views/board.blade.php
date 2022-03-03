@@ -12,17 +12,15 @@
         <table id="table" class="table table-bordered">
             <thead>
                 <tr>
-                    <th style="width: 10px">#</th><th>Class</th><th>Progress</th>
+                    <th style="width: 10px">#</th><th>Class</th>
                 </tr>
                     </thead>
                    <tbody>
                     <tr>
-                     <td>1.</td>
                       <td>CSE-4500 "PLATFORM COMPUTING"</td>
                     </tr>
                     <tr>
-                     <td>2.</td>
-                      <td>CSE-4410 "PLATFORM COMPUTING"</td>
+                      <td>CSE-4410 "GAME PROGRAMMING"</td>
                     </tr>
                    <tbody>
          </table>
