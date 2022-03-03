@@ -496,7 +496,7 @@ return [
         'icon' => 'fas fa-fw fa-file-alt',
     ],
         
-];
+]
     
 
 ];
