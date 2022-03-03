@@ -38,7 +38,6 @@ Route::get('events-feed', function () {
 });
 
 Route::fallback(function () {
-    
     @extends('adminlte::page')
 
 @section('title', 'title')
@@ -58,6 +57,4 @@ Route::fallback(function () {
 @section('js')
     <script> console.log('Hi!'); </script>
 @stop
-        
-});
 });
