@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'title')
+@section('title', 'Board')
 
 @section('content_header')
     <h1>Board</h1>
@@ -18,13 +18,13 @@
     <div class="card card-row card-secondary">
       <div class="card-header">
       <h3 class="card-title">
-      Backlog
+      Card 1
       </h3>
       </div>
       <div class="card-body">
       <div class="card card-info card-outline">
        <div class="card-header">
-      <h5 class="card-title">Create Labels</h5>
+      <h5 class="card-title">Sub-Card 1</h5>
       <div class="card-tools">
       <a href="#" class="btn btn-tool btn-link">#3</a>
       <a href="#" class="btn btn-tool">
@@ -35,44 +35,26 @@
       <div class="card-body">
       <div class="custom-control custom-checkbox">
       <input class="custom-control-input" type="checkbox" id="customCheckbox1" disabled="">
-      <label for="customCheckbox1" class="custom-control-label">Bug</label>
+      <label for="customCheckbox1" class="custom-control-label">Check 1</label>
       </div>
       <div class="custom-control custom-checkbox">
       <input class="custom-control-input" type="checkbox" id="customCheckbox2" disabled="">
-      <label for="customCheckbox2" class="custom-control-label">Feature</label>
+      <label for="customCheckbox2" class="custom-control-label">Check 2</label>
       </div>
       <div class="custom-control custom-checkbox">
       <input class="custom-control-input" type="checkbox" id="customCheckbox3" disabled="">
-      <label for="customCheckbox3" class="custom-control-label">Enhancement</label>
+      <label for="customCheckbox3" class="custom-control-label">Check 3</label>
       </div>
       <div class="custom-control custom-checkbox">
       <input class="custom-control-input" type="checkbox" id="customCheckbox4" disabled="">
-      <label for="customCheckbox4" class="custom-control-label">Documentation</label>
+      <label for="customCheckbox4" class="custom-control-label">Check 4</label>
       </div>
       <div class="custom-control custom-checkbox">
       <input class="custom-control-input" type="checkbox" id="customCheckbox5" disabled="">
-      <label for="customCheckbox5" class="custom-control-label">Examples</label>
+      <label for="customCheckbox5" class="custom-control-label">Check 5</label>
       </div>
       </div>
       </div>
-      <div class="card card-primary card-outline">
-      <div class="card-header">
-      <h5 class="card-title">Create Issue template</h5>
-      <div class="card-tools">
-      <a href="#" class="btn btn-tool btn-link">#4</a>
-      <a href="#" class="btn btn-tool">
-      <i class="fas fa-pen"></i>
-      </a>
-      </div>
-      </div>
-      <div class="card-body">
-      <div class="custom-control custom-checkbox">
-      <input class="custom-control-input" type="checkbox" id="customCheckbox1_1" disabled="">
-      <label for="customCheckbox1_1" class="custom-control-label">Bug Report</label>
-      </div>
-      <div class="custom-control custom-checkbox">
-      <input class="custom-control-input" type="checkbox" id="customCheckbox1_2" disabled="">
-      <label for="customCheckbox1_2" class="custom-control-label">Feature Request</label>
       </div>
       </div>
       </div>
@@ -84,13 +66,13 @@
     <div class="card card-row card-primary">
       <div class="card-header">
       <h3 class="card-title">
-      To Do
+      Card 2
       </h3>
       </div>
       <div class="card-body">
       <div class="card card-primary card-outline">
       <div class="card-header">
-      <h5 class="card-title">Create first milestone</h5>
+      <h5 class="card-title">Label 1</h5>
       <div class="card-tools">
       <a href="#" class="btn btn-tool btn-link">#5</a>
       <a href="#" class="btn btn-tool">
@@ -107,13 +89,13 @@
     <div class="card card-row card-default">
       <div class="card-header bg-info">
       <h3 class="card-title">
-      In Progress
+      Card 3
       </h3>
       </div>
       <div class="card-body">
       <div class="card card-light card-outline">
       <div class="card-header">
-      <h5 class="card-title">Update Readme</h5>
+      <h5 class="card-title">Label 1</h5>
       <div class="card-tools">
       <a href="#" class="btn btn-tool btn-link">#2</a>
       <a href="#" class="btn btn-tool">
@@ -123,7 +105,7 @@
       </div>
       <div class="card-body">
       <p>
-      Post application address in the Readme.
+      Description Here
       </p>
       </div>
       </div>
@@ -141,7 +123,7 @@
       <div class="card-body">
       <div class="card card-primary card-outline">
       <div class="card-header">
-      <h5 class="card-title">Create repo</h5>
+      <h5 class="card-title">Practice Assignment #4</h5>
       <div class="card-tools">
       <a href="#" class="btn btn-tool btn-link">#1</a>
       <a href="#" class="btn btn-tool">
