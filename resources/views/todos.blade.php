@@ -19,16 +19,21 @@
       <tbody>
         <tr>
           <td>1.</td>
-          <td>Update software</td>
+          <td>Getting a Normal Sleep Schedule</td>
           <td><div class="progress progress-xs"><div class="progress-bar progress-bar-danger" style="width: 55%"></div></div></td>
           <td><span class="badge bg-danger">55%</span></td>
         </tr>
         <tr>
           <td>2.</td>
-          <td>Clean database</td>
-          <td><div class="progress progress-xs"><div class="progress-bar bg-warning" style="width: 70%"></div></div></td>
-          <td><span class="badge bg-warning">70%</span></td>
+          <td>Procrastination</td>
+          <td><div class="progress progress-xs"><div class="progress-bar bg-warning" style="width: 80%"></div></div></td>
+          <td><span class="badge bg-warning">80%</span></td>
         </tr>
+        <tr>
+          <td>3.</td>
+          <td>Finish Practice Assignment #4</td>
+          <td><div class="progress progress-xs"><div class="progress-bar bg-warning" style="width: 100%"></div></div></td>
+          <td><span class="badge bg-warning">100%</span></td>
       </tbody>
     </table>
   </div>
