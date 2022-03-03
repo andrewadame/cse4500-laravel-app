@@ -3,49 +3,30 @@
 @section('title', 'title')
 
 @section('content_header')
-    <head>
-
-    
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="csrf-token" content="D7770E21lx3HOEgGdPRTiEB1ZrEfTxszJP97qtja">
-
+    <div class="container-fluid">
+                    <h1>Error</h1>
+            </div>
+        </div>
     
     
-    
-    <title>
-                Page not found            </title>
-    
-    
-    
-    
-            
-    
-    
-</head>
-
-<body class="sidebar-mini" >
-
-    
-        <div class="wrapper">
-
-        
-                    <nav class="main-header navbar
-    navbar-expand
-    navbar-white navbar-light">
-
-    
-    <ul class="navbar-nav">
-        
-        <li class="nav-item">
-    <a class="nav-link" data-widget="pushmenu" href="#"
-                        >
-        <i class="fas fa-bars"></i>
-        <span class="sr-only">Toggle navigation</span>
-    </a>
-</li>
-        
+    <div class="content">
+        <div class="container-fluid">
+            <div class="error-page">
+<h2 class="headline text-warning"> 404</h2>
+<div class="error-content">
+<h3><i class="fas fa-exclamation-triangle text-warning"></i> Oops! Page not found.</h3>
+<p>
+ We could not find the page you were looking for.
+Meanwhile, you may <a href="/">return to dashboard</a> or try using the search form.
+</p>
+<form class="search-form">
+<div class="input-group">
+<input type="text" name="search" class="form-control" placeholder="Search">
+<div class="input-group-append">
+<button type="submit" name="submit" class="btn btn-warning"><i class="fas fa-search"></i>
+</button>
+</div>
+</div>    
 @stop
 
 @section('content')
