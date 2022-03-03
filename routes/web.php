@@ -38,5 +38,5 @@ Route::get('events-feed', function () {
 });
 
 Route::fallback(function () {
-    return view('ntfnd');
+    return view('error');
 });
