@@ -1,3 +1,5 @@
+@section('plugins.Datatables', true)
+
 @extends('adminlte::page')
 
 @section('title', 'To Do List')
@@ -5,8 +7,6 @@
 @section('content_header')
     <h1>To Do's</h1>
 @stop
-
-@section('plugins.Datatables', true)
 @section('content')
 <div class="card">
   <div class="card-body">
