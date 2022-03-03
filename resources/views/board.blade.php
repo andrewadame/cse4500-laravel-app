@@ -3,11 +3,25 @@
 @section('title', 'title')
 
 @section('content_header')
-    <h1>Header</h1>
+    <h1>Board</h1>
 @stop
 
 @section('content')
-    <p>Content here</p>
+  <div class="card">
+    <div class="card-body">
+        <table id="table" class="table table-bordered">
+            <thead>
+                <tr>
+                    <th style="width: 10px">#</th><th>Task</th><th>Progress</th><th style="width: 40px">Label</th>
+                </tr>
+                    </thead>
+                   <tbody>
+                    <tr>
+                    <tr>
+                   <tbody>
+         </table>
+  </div>
+</div> 
 @stop
 
 @section('css')
