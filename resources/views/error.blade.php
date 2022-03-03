@@ -3,12 +3,17 @@
 @section('title', 'title')
 
 @section('content_header')
-    <div class="container-fluid">
+   
+@stop
+
+@section('content')
+
+<div class="container-fluid">
                     <h1>Error</h1>
             </div>
         </div>
     
-
+    <div class="content">
         <div class="container-fluid">
             <div class="error-page">
 <h2 class="headline text-warning"> 404</h2>
@@ -26,10 +31,7 @@ Meanwhile, you may <a href="/">return to dashboard</a> or try using the search f
 </button>
 </div>
 </div>    
-@stop
 
-@section('content')
-    <p>Content here</p>
 @stop
 
 @section('css')
