@@ -33,4 +33,6 @@ return new class extends Migration
     {
         Schema::dropIfExists('users');
     }
+    
+    php artisan make:migration create_todos_table
 };
