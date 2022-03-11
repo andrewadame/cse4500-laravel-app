@@ -42,8 +42,9 @@ Route::fallback(function () {
 });
 
 Route::get('/db-test', function () {
-    try {         
-         echo \DB::connection()->getDatabaseName();     
+    try {
+	echo "Database Connected: ";         
+        echo \DB::connection()->getDatabaseName();     
     } catch (\Exception $e) {
           echo 'None';
     }
