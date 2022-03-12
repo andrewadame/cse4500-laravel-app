@@ -51,4 +51,9 @@ Route::get('/db-test', function () {
     }
 });
 
+Route::get('/db-migrate', function () {
+    Artisan::call('migrate');
+    echo Artisan::output();
+});
+
 Route::resource('/todos', TodoController::class);
