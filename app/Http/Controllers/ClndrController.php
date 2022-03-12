@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Clndr
+use App\Models\Clndr;
 
 class ClndrController extends Controller
 {
@@ -15,7 +15,7 @@ class ClndrController extends Controller
     public function index()
     {
         $calendar = Clndr::all();
-	return view('calendar', compact('calendar'))
+	return view('calendar', compact('calendar'));
     }
 
     /**
@@ -25,7 +25,7 @@ class ClndrController extends Controller
      */
     public function create()
     {
-        //
+        return view('calendar.create');
     }
 
     /**
