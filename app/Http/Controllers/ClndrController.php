@@ -36,7 +36,19 @@ class ClndrController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validated = $request->validate([
+             'title' => 'required',
+             'date' => 'required',
+	     'time' => 'reuired',
+        ]);
+
+	$calendar = Clndr::create([ 
+             'title' => $request->title, 
+             'date' => $request->date,
+	     'time' => $request->time. 
+        ]);
+
+        return $this->index(); 
     }
 
     /**
@@ -47,7 +59,8 @@ class ClndrController extends Controller
      */
     public function show($id)
     {
-        //
+        $calendar = Clndr::find($id);
+	return view('calendar.show',compact('calendr'))
     }
 
     /**
