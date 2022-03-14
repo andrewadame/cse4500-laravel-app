@@ -16,11 +16,11 @@
         <div id="calendar" class="fc fc-media-screen fc-direction-ltr fc-theme-bootstrap">
         </div>
 	 <tbody>
-        	<label for="meeting-time">Choose a time for your appointment:</label>
+        	<label for="events">Choose a date for your event:</label>
 
-		<input type="datetime-local" id="meeting-time"
-       		name="meeting-time" value="2018-06-12T19:30"
-       		min="2018-06-07T00:00" max="2018-06-14T00:00">
+		<input type="datetime-local" id="events"
+       		name="events" value="2022-01-01T00:00"
+       		min="2022-01-01T00:00" max="2022-12-31T23:59">
 	 <tbody>
       </div>
     </div>
