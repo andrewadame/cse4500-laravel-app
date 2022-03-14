@@ -15,10 +15,20 @@
       <div class="card-body p-0">
         <div id="calendar" class="fc fc-media-screen fc-direction-ltr fc-theme-bootstrap">
         </div>
+	 <tbody>
+	@foreach($calendar AS $clndr)
+        	<tr>
+          		<td>{{ $clndr->id }}</td>
+          		<td>{{ $clndr->title }}</td>
+          		<td><a class="btn btn-default btn-sm" href="{{ route('calendar.show',['clndr'=>$clndr->id]) }}">View</a></td>
+        	</tr>
+        @endforeach
+	 <tbody>
       </div>
     </div>
   </div>
 </div>
+<a href="{{ route('calendar.create') }} " class="btn btn-primary" >Create</a>
 @stop
 
 @section('css')
