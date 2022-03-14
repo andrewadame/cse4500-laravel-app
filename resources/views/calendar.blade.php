@@ -17,11 +17,11 @@
         </div>
 	 <tbody>
 	@foreach($calendar AS $clndr)
-        	<tr>
-          		<td>{{ $clndr->id }}</td>
-          		<td>{{ $clndr->title }}</td>
-          		<td><a class="btn btn-default btn-sm" href="{{ route('calendar.show',['clndr'=>$clndr->id]) }}">View</a></td>
-        	</tr>
+        	<label for="meeting-time">Choose a time for your appointment:</label>
+
+		<input type="datetime-local" id="meeting-time"
+       		name="meeting-time" value="2018-06-12T19:30"
+       		min="2018-06-07T00:00" max="2018-06-14T00:00">
         @endforeach
 	 <tbody>
       </div>
