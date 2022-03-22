@@ -15,7 +15,7 @@ use App\Http\Controllers\TodoController;
 */
 
 Route::get('/', function () {
-    return view('create');
+    return view('welcome');
 });
 
 Route::get('todos', function () {
